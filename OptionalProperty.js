@@ -5,8 +5,17 @@ function printcar(Car) {
         str += "// ".concat(Car.chargeV, "v");
     console.log(str);
 }
-printcar({
+var MyCar = {
     make: "tesla",
     model: "Model 3",
-    year: 2020
-});
+    year: 2020,
+    //chargeV:220,
+    color: "Red"
+};
+// printcar({
+//     make: "tesla",
+//     model:"Model 3",
+//     year:2020,
+//     //chargeV:220,
+// })
+printcar(MyCar);

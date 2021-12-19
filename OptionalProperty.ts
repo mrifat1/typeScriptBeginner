@@ -14,17 +14,17 @@ function printcar(Car:
 
     console.log(str)
 }
-let MyCar = {
-    make: "tesla",
-    model:"Model 3",
-    year:2020,
-    //chargeV:220,
-    color: "Red"
-}
-// printcar({
+// let MyCar = {
 //     make: "tesla",
 //     model:"Model 3",
 //     year:2020,
 //     //chargeV:220,
-// })
-printcar(MyCar)
+//     color: "Red"
+// }
+// printcar(MyCar)
+printcar({
+    make: "tesla",
+    model:"Model 3",
+    year:2020,
+    //chargeV:220,
+})
